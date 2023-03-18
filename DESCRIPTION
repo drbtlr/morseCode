@@ -1,0 +1,15 @@
+Package: morseCode
+Title: A simple Morse Code decoder written in R
+Version: 0.0.0.9000
+Authors@R: 
+    person("Aaron", "Butler", email = "aaronbutlerphd@gmail.com", 
+           role = c("aut", "cre"), comment = c(ORCID = "0000-0003-0433-3083"))
+Description: This package translates text into International Morse Code symbols (and vice versa).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    magrittr,
+    purrr,
+    stringr
