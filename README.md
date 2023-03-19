@@ -4,8 +4,7 @@ An R package that translates text into International Morse Code symbols (and vic
 
 ## Installation
 
-You can install the development version of nyphil from
-[GitHub](https://github.com/) with:
+The development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("remotes")
