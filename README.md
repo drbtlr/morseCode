@@ -10,3 +10,23 @@ The development version from [GitHub](https://github.com/) with:
 # install.packages("remotes")
 remotes::install_github("drbtlr/morseCode")
 ```
+## Example
+
+``` r
+library(morseCode)
+```
+
+``` r
+# Convert text to Morse Code
+text_to_code("hello world!")
+#> .... . .-.. .-.. ---    .-- --- .-. .-.. -.. -.-.--
+```
+
+``` r
+# Convert Morse Code to text
+code_to_text(".... . .-.. .-.. ---    .-- --- .-. .-.. -.. -.-.--")
+#> hello world!
+```
+
+
+
