@@ -2,6 +2,7 @@
 
 export("%>%")
 export(code_to_text)
+export(morse_code)
 export(text_to_code)
 import(purrr)
 import(stringr)
